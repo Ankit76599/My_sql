@@ -1,4 +1,6 @@
 Show databases; it's help to identify all the database in our my_sql database
 
+Use databse_name: it help to select the database;   
+
 
  
