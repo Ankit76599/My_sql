@@ -1,6 +1,62 @@
-Show databases; it's help to identify all the database in our my_sql database
+DATA BASE
 
-Use databse_name: it help to select the database;   
+1. Show databases; it's help to identify all the database in our my_sql database
 
+
+2. CREATE DATABASE DATABASE_NAME;  Creating a new Database
+
+
+3. DROP DATABASE  DATABASE_NAME;
+
+
+SELECT DATABASE 
+
+1. Use databse_name; it help to select the database;   
+
+2. select database(); it's help to clarify which database is currently taken or using
+
+
+CREATING TABLE 
+1. create table table_name(variable name with datatype);
+
+2. desc table_name; it give you a blue print of table
+
+
+
+
+
+INSERTING ITEMS IN A TABLE 
+
+1.inser into table_name values(inert the info according to the schema of table)
+			
+				or
+  inert into table_name (id,name) values(inert the info according to the schema that you define)
+
+
+2.select *from table_name; it help to provide all column info
+			
+			or
+ select column_name from  table_name;  it help to specify which column show
+
+			or
+  select column_name from  table_name where column_nmae="specify id,name or anything else";  it help to specify that  column show you define
+
+ 
+
+
+UPADTE THE TABLES
+
+1.update table_name (values_change) where column_name="specify id,name or anything else"; 
+
+                           UPDATE students
+                             SET contact-12345
+                                WHERE name='Raju';
+
+
+DELETE DATA FROM A TABLE
+
+1. delete from table_name where (column_name)="specify id,name or anything else";
+			DELETE FROM students
+				WHERE name:' Raju';
 
  
