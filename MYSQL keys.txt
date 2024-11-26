@@ -1,0 +1,11 @@
+1.NOT NULL ; it help to define a table that can not be remain empty
+
+                                 CREATE TABLE customers
+				 id INT NOT NULL,
+				 name VARCHAR(1OO) NOT NULL
+
+
+
+2. DEFAULT Value; if you not insert  any value to a particular column then the default value get store into it
+			
+				CREATE TABLE employee(name VARCHAR(100), acc_type VARCHAR(50) DEFAULT 'savings'

@@ -49,10 +49,10 @@ INSERTING ITEMS IN A TABLE
 
 UPADTE THE TABLES
 
-1.update table_name (values_change) where column_name="specify id,name or anything else"; 
+1.update table_name where column_nmae =(values_change) where column_name="specify id,name or anything else"; 
 
                            UPDATE students
-                             SET contact-12345
+                             SET contact=12345
                                 WHERE name='Raju';
 
 
@@ -64,5 +64,8 @@ DELETE DATA FROM A TABLE
 
 
 2. Drop table table_name; this delete the whole  table that you selected  
+
+
+
 
  
