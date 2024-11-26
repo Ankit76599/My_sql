@@ -17,9 +17,12 @@ SELECT DATABASE
 
 
 CREATING TABLE 
-1. create table table_name(variable name with datatype);
 
-2. desc table_name; it give you a blue print of table
+1. show tables; it show all tables that you created
+
+2. create table table_name(variable name with datatype);
+
+3. desc table_name; it give you a blue print of table
 
 
 
@@ -58,5 +61,8 @@ DELETE DATA FROM A TABLE
 1. delete from table_name where (column_name)="specify id,name or anything else";
 			DELETE FROM students
 				WHERE name:' Raju';
+
+
+2. Drop table table_name; this delete the whole  table that you selected  
 
  
