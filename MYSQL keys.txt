@@ -1,4 +1,4 @@
-1.NOT NULL ; it help to define a table that can not be remain empty
+1.NOT NULL : it help to define a table that can not be remain empty
 
                                  CREATE TABLE customers
 				 id INT NOT NULL,
@@ -6,6 +6,29 @@
 
 
 
-2. DEFAULT Value; if you not insert  any value to a particular column then the default value get store into it
+2. DEFAULT Value: if you not insert  any value to a particular column then the default value get store into it
 			
 				CREATE TABLE employee(name VARCHAR(100), acc_type VARCHAR(50) DEFAULT 'savings'
+
+
+3. PRIMARY KEYS: it help to make only one column as a primary key and it can not be duplicate in that column
+	
+		• The PRIMARY KEY constraint uniquely identifies each
+		  record in a table.
+
+                • Primary keys must contain UNIQUE values, and cannot
+                  contain NULL values.
+
+                • A table can have only ONE primary key.
+
+				CREATE TABLE customers ( acc_no INT PRIMARY KEY,  name VARCHAR(1OO) NOT NULL, acc_type VARCHAR(50) NOT NULL DEFAULT ' Savings ');
+
+4. AUTO-INCREMENT : it increment the value by 1
+			CREATE TABLE customers ( acc no INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(100) NOT NULL, acc_type VARCHAR(50) NOT NULL DEFAULT 'Savings');
+
+
+5. ALIAS : it help to define the column name with a specific name that you define
+		
+		        ex:    SELECT acc_no AS 'Account No.' FROM customers4;
+
+
