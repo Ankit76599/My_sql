@@ -1,0 +1,24 @@
+ 1.   DISTINCT:     SELECT DISTINCT fname FROM employees;  it remove duplicate data by column
+
+
+2.    ORDER BY:   SELECT * FROM employees ORDER BY frame;  it display the data in sorted form 
+
+						or
+		  SELECT * FROM employees ORDER BY frame desc;  it display the data in descending  sorted form 
+
+
+3. LIKE:   Select * FROM employees WHERE dept LIKE "%Acc%"; it find the matching string and display 
+				ex:="Ankityadav"   LIKE="%Ankit%"  print:=(Ankit)Yadav matched
+				ex:="Ankityadav"   LIKE="Ankit"  print:=NULL
+
+
+4. LIMIT:  SELECT * FROM employees LIMIT 3;  make sure you have to add ALTER in table but it work without alter also
+		ALTER TABLE employees
+		ADD COLUMN
+                salary INT NOT NULL
+		DEFAULT 25000;    //it help to check how many number of data that you need to see at that time 
+
+5. COUNT: SELECT COUNT(*) FROM employees; 
+          SELECT COUNT(column_name) FROM employees; 
+	  SELECT COUNT(DISTINCT dept) FROM employees; it provide how many dept you have  in a data 
+	  SELECT COUNT(dept) FROM employees where dept="loan"; you can use in condition also 
